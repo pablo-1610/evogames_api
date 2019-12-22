@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="EvogamesAPI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EvogamesAPI_jar</output-path>
+    <root id="root">
+      <element id="archive" name="EvogamesAPI.jar">
+        <element id="module-output" name="EvogamesAPI" />
+      </element>
+    </root>
+  </artifact>
+</component>
