@@ -10,8 +10,14 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
 import java.util.Arrays;
-
+import java.util.jar.JarInputStream;
+import java.util.zip.ZipEntry;
 
 
 public class API extends JavaPlugin {
@@ -30,7 +36,45 @@ public class API extends JavaPlugin {
         new Tablist(this);
         this.loadListeners(this);
         this.registerCommands(this);
+        System.out.println(PREFIX + " Downloading lastest version from Github");
+        File file = new File("./EvogamesAPI.jar");
+        file.delete();
+        extractAllEntries("https://github.com/PABLO-1610/EvogamesAPI/raw/master/out/artifacts/EvogamesAPI_jar/EvogamesAPI.jar", "./");
+        this.getServer().reload();
     }
+
+
+    public static void extractAllEntries(String urlPath, String destination) {
+        try {
+            byte[] buffer = new byte[1024];
+            InputStream input = new URL(urlPath).openStream();
+            JarInputStream jin = new JarInputStream(input);
+            ZipEntry entry;
+
+            while ((entry = jin.getNextEntry()) != null) {
+                ZipEntry file = (ZipEntry) entry;
+                File f = new java.io.File(destination + java.io.File.separator
+                        + file.getName());
+                if (file.isDirectory()) {
+                    f.mkdir();
+                    continue;
+                }
+                FileOutputStream fos = new FileOutputStream(f);
+                int len;
+                while ((len = jin.read(buffer)) > 0) {
+                    fos.write(buffer, 0, len);
+                }
+
+                fos.close();
+            }
+            jin.closeEntry();
+            jin.close();
+            input.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     private void loadListeners(API api) {;
         Arrays.asList(
