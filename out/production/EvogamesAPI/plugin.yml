@@ -1,0 +1,4 @@
+name: EvogamesAPI
+version: 1.0-ALPHA
+author: Pablo1610 (Pablo'#0001)
+main: com.evogames.api.main.API
