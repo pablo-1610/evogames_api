@@ -36,11 +36,11 @@ public class API extends JavaPlugin {
         new Tablist(this);
         this.loadListeners(this);
         this.registerCommands(this);
-        System.out.println(PREFIX + " Downloading lastest version from Github");
+        /*System.out.println(PREFIX + " Downloading lastest version from Github");
         File file = new File("./EvogamesAPI.jar");
         file.delete();
         extractAllEntries("https://github.com/PABLO-1610/EvogamesAPI/raw/master/out/artifacts/EvogamesAPI_jar/EvogamesAPI.jar", "./");
-        this.getServer().reload();
+        this.getServer().reload();*/
     }
 
 
