@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bf99436-b3b3-449c-98bb-07dc421c9b86" name="Default Changelist" comment="" />
+    <list default="true" id="0bf99436-b3b3-449c-98bb-07dc421c9b86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/evogames/api/utils/Scan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/evogames/api/main/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/evogames/api/main/API.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +42,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RunManager">
+    <configuration name="Scan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.evogames.api.utils.Scan" />
+      <module name="EvogamesAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.evogames.api.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Scan" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -68,7 +92,28 @@
       <option name="project" value="LOCAL" />
       <updated>1577012234932</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lolilol">
+      <created>1577012308074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577012308074</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lolilol">
+      <created>1577012323997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577012323997</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lolilol">
+      <created>1577012463921</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577012463921</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -84,22 +129,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576945093821" />
-    <state x="545" y="114" key="CommitChangelistDialog2" timestamp="1577012322297">
+    <state x="545" y="114" key="CommitChangelistDialog2" timestamp="1577012462168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="545" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577012322297" />
+    <state x="545" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577012462168" />
     <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1576957658992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576957658992" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1577012718676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577012718676" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1577012718676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577012718676" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1577012718676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577012718676" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1577012718676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577012718676" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1576783162118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576783162118" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577012326549">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577012470062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577012326549" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577012470062" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577010989350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
